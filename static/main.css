@@ -1,0 +1,180 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #e3fce6;
+}
+.section-title{
+  color: #2a9d8f;
+  font-size: 2.6rem;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+main img{
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+main img:hover{
+  transform: scale(1.03);
+}
+
+.site-header{
+    position: sticky;
+    top: 0;
+    background-color: #2a9d8f!important;
+    padding: 0;
+    z-index: 9999;
+}
+nav a{
+    color: aliceblue!important;
+    font-weight: bold;
+    font-size: 16px;
+    word-spacing: none;
+  }
+  nav a:hover{
+    opacity: 0.8;
+    font-weight: bold;
+    border-bottom: 1px solid #f8a488;
+  }
+  .navbar-toggler{
+  padding: 6px 8px;
+  border: 1px solid white;
+  }
+  
+  .navbar-toggler span{
+  display: block;
+  background-color: white;
+  height: 1px;
+  width: 22px;
+  
+  }
+  .navbar-toggler span + span{
+  margin-top: 4px;
+  height: 1px;
+  width: 22px;
+  
+  }
+  .navbar-toggler span + span + span{
+  margin-top: 4px;
+  height: 1px;
+  width: 22px;
+  
+  }
+@media (max-width: 420px) {
+  .site-logo img{
+    width: 30px;
+  }
+  nav a{
+    color: aliceblue!important;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+.active{
+  color: #d3d2d2!important;
+  font-size: 17px;
+}
+.header-scrolled{
+    transition: 1.2s;
+    top: -0.6rem !important;
+    background-color: #2a9d90c4!important;
+    }
+
+#hero-side h2{
+  color: #e63946;
+  font-weight: 800;
+  padding: 2rem 0rem;
+}
+#hero-side h3{
+  color: #2a9d8f;
+  font-weight: 700;
+}
+
+/*
+about
+*/
+.desc ul li{
+  font-size: 1.1rem;
+  padding: 0.5rem 0.2rem;
+}
+.desc ul li span{
+  font-weight: 600;
+}
+.services-wrapper i{
+  font-size: 4.2rem;
+  padding-top: 2rem;
+  color: #e63946;
+}
+.icon{
+  border-top: 1px solid #4c6575;
+  transition: ease-in-out 1s;
+  border-radius: 8px;
+}
+.icon:hover{
+  border: 1px dotted #4c6575;
+  margin-top: -2.4rem;
+
+  
+}
+@media(max-width: 768px){
+  .icon{
+    border-top: none;
+  }
+}
+.firesafety ul{
+  list-style: none;
+  padding: 0;
+}
+.firesafety ul li{
+  font-size: 1.1rem;
+}
+.firesafety ul i{
+  color: red;
+  font-weight: 900;
+  padding-top: 0rem;
+  font-size: 1.1rem;
+}
+
+  /*--------------------------------------------------------------
+# contact
+--------------------------------------------------------------*/
+#contact{
+  padding-top: 20px;
+}
+.contact .info i {
+  font-size: 34px;
+  color: #009961;
+  float: left;
+  line-height: 1;
+}
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #282828;
+}
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #5b5b5b;
+}
+.contact .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+
+footer{
+  background-color: #4c6575;
+}
+footer .inline-form i{
+  font-size: 1.8rem;
+}
+footer .inline-form a:nth-child(1){
+  color: #f72585;
+}
+footer .inline-form a:nth-child(2){
+  color: #023e8a;
+}
+footer .inline-form a:nth-child(3){
+  color: #0096c7;
+}
